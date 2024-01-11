@@ -23,7 +23,8 @@
       "defaultConfiguration": "development",
       "options": {
         "buildTarget": "react-fit:build",
-        "dev": true
+        "dev": true,
+        "proxyConfig": "apps/react-fit/proxy.conf.json"
       },
       "configurations": {
         "development": {
