@@ -1,4 +1,5 @@
 import styles from './page.module.css';
+import { SharedComponentsWeb } from '@react-fit/shared-components-web';
 
 export default async function Index() {
   /*
@@ -11,10 +12,7 @@ export default async function Index() {
       <div className="wrapper">
         <div className="container">
           <div id="welcome">
-            <h1>
-              <span> Hello there, </span>
-              Welcome react-fit 👋
-            </h1>
+            <SharedComponentsWeb />
           </div>
 
           <div id="hero" className="rounded">

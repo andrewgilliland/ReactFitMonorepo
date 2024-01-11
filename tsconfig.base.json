@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@react-fit/shared-components-web": [
+        "libs/shared-components-web/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
